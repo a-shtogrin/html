@@ -1,0 +1,69 @@
+/* селектор, тоесть к чему будет применятся стиль */
+body {
+    font-family: Arial;
+}
+h1 {
+    border: 5px solid rgba(15, 15, 218, 0.5);
+    background: blueviolet;
+    font-size: 4.5rem; 
+    color: olive;
+    text-align: center;  
+    padding: 50px ;  /* отступы внутренние */
+    padding-bottom: 20px;
+    margin-left: 20px; /* отступы внешние */
+}
+img {
+    width: 250px;
+    transition: 0.2s;
+}
+/* Псевдо класс: */
+img:hover {
+    transform: scale(1.1, 1.1);
+}
+/* Стиль для класса */
+/* .blue {
+    background: linear-gradient(45deg, #090979, #00d4ff);
+    box-shadow: 2px 2px 10px gray;
+    color: #fff;
+    border-radius: 20px;
+} */
+a {
+    padding: 15px;
+    background: #090979;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000f00;
+}
+/* / Псевдо класс: */
+a:hover {
+    background: blue;
+}
+
+.large {
+    font-size: 20px;
+}
+.blue {
+    background: blue;
+    box-shadow: 5px 1px 50px rgb(163, 25, 43);
+}
+.rounded {
+    border-radius: 30px;
+}
+.block {
+    width: 50%;
+    border-radius: 35px;
+    padding: 5px;
+}
+/* Ширина картинки если она есть в классе .block */
+.block img {
+    width: 50%;  /* процент от размера картинки в родительском блоке */
+}
+.pink {
+    background-color: pink;
+}
+.green {
+    background-color: darkgreen;
+}
+.orange {
+    background-color: darkgoldenrod;
+}
