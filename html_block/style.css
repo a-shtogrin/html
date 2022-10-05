@@ -1,0 +1,44 @@
+/* Общие стили */
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Стили хедера */
+header {
+    background: rgb(102, 102, 197);
+}
+
+/* Стили навигации */
+.main-menu {
+    background: grey;
+}
+.main-menu-list {
+    list-style: none;
+}
+
+/* Стили контента */
+section {
+    background: orange;
+}
+.section-item {
+    background: rgb(29, 161, 99);
+}
+
+/* Стили сайд бара */
+.sidebar-right {
+    background: green;
+}
+
+/* Стили футера */
+footer {
+    background: plum;
+}
+
