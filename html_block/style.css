@@ -13,8 +13,30 @@ ul {
 
 /* Стили хедера */
 header {
+    display: flex;
+    justify-content: space-between;
     background: rgb(102, 102, 197);
+    height: 50px;
+    align-items: center;
 }
+
+/* стили контента */
+
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /* 100% видимой части экрана */
+}
+.wrap1 {
+    flex: 1;
+}
+
+
+.content {
+    display: flex;
+}
+
 
 /* Стили навигации */
 .main-menu {
@@ -22,24 +44,49 @@ header {
 }
 .main-menu-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 }
 
 /* Стили контента */
 section {
     background: orange;
+    flex: 5; /* занимает 5 частей родительского блока */
+    display: flex;
+    flex-wrap: wrap;
 }
 .section-item {
     background: rgb(29, 161, 99);
+    padding: 10px;
+    margin: 15px;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
 }
 
 /* Стили сайд бара */
 .sidebar-right {
     background: green;
+    flex: 1;
+    display: flex;
+    flex-direction: column;  /* разворот основной оси вертикально */
+    justify-content: space-evenly; /* по основной оси */
+    align-items: center;  /* распределение по горизонтали  */
 }
+
 
 /* Стили футера */
 footer {
     background: plum;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+
+
 
 
