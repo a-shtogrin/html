@@ -15,4 +15,104 @@ ul {
 
 /* Стили контента */
 
+.cards{
+    height: 775px;
+    background: #EFF2F5;
+    align-items: center;
+}
+
+.cards-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.cards-proc{
+    width: 750px;
+    height: 500px;
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-proc-header{
+    display: flex;
+}
+
+.cards-proc-section{
+    display: flex;
+}
+
+.cards-proc-section-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.button-blue{
+    width: 200px;
+    height: 55px;
+    background: #3A95FF;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.button-white{
+    width: 200px;
+    height: 55px;
+    border: 1px solid #3A95FF;
+    border-radius: 3px;
+    color: #3A95FF;
+}
+
+.cards-credit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.cards-credit-item{
+    width: 360px;
+    height: 235px;
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards-credit-item-text{
+    margin: 34px;
+}
+.cards-credit-item-pic{
+    margin: 34px;
+}
+
+
+
+
+
 /* Стили футера */
+
+footer{
+    height: 160px;
+    color: #424242;
+    background: #EFF2F5;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
