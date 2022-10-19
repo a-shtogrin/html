@@ -13,6 +13,26 @@ ul {
 
 /* Стили хедера */
 
+.top-menu-wrap{
+    display: flex;
+
+}
+
+.top-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu-list-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-menu-list-2{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Стили контента */
 
 .cards{
