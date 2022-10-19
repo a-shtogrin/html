@@ -11,16 +11,16 @@ ul {
     margin: 0 auto;
 }
 
-p{
+/* p{
     margin: 0 auto;
-}
+} */
 
 
 /* Стили хедера */
 
 .top-menu-wrap{
     display: flex;
-
+    justify-content: space-between;
 }
 
 .top-menu-list{
@@ -30,12 +30,12 @@ p{
 
 .top-menu-list-1{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .top-menu-list-2{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /* Стили контента */
@@ -63,14 +63,25 @@ p{
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .cards-proc-header{
+    margin: 0 0 0 100px;
     display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.cards-proc-header-text{
+    margin: 34px 0 0 0;
 }
 
 .cards-proc-section{
+    margin: 0 0 0 100px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .cards-proc-section-item{
@@ -80,10 +91,19 @@ p{
     align-items: center;
 }
 
-.button{
+.bunner-button{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
+}
+
+.cards-proc-button{
+
+    margin: 0px 0px 42px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
 }
 
 
@@ -94,6 +114,9 @@ p{
     background: #3A95FF;
     border-radius: 3px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .button-white{
     width: 200px;
@@ -101,6 +124,9 @@ p{
     border: 1px solid #3A95FF;
     border-radius: 3px;
     color: #3A95FF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .cards-credit{
