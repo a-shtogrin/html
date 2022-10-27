@@ -1,0 +1,21 @@
+.pink {
+    background: pink;
+}
+
+.green {
+    background-color: green;
+    border: 1px solid black;
+}
+
+.bg-my-nav {
+background: blueviolet;
+}
+
+.btn-outline-my {
+    border: 1px solid greenyellow;
+    
+}
+
+.btn-outline-my:hover {
+    background: greenyellow;
+}

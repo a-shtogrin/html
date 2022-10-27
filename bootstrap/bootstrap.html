@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Демо Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-my-nav">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">Моёё название</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item text-light">
+              <a class="nav-link" aria-current="page" href="#">O нас</a>
+            </li>
+            <li class="nav-item text-light">
+              <a class="nav-link" href="#">Портфолио</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Услуги
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Моем</a></li>
+                <li><a class="dropdown-item" href="#">Сушим</a></li>
+                <li><a class="dropdown-item" href="#">Убираем</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Отзывы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-5" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Поиск"
+              aria-label="Поиск"
+            />
+            <button class="btn btn-outline-my" type="submit">Поиск</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/dog1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dog2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dog.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+
+    <!-- карточки -->
+    <h1 class = "text-center my-5">Карточки товаров</h1>
+    <div class="container">
+    <div class="row">
+      <div class="card col-md-5" style="width: 18rem">
+        <img src="./img/pears.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Груши</h5>
+          <p class="card-text">
+            Небольшой пример текста, который должен основываться на названии
+            карточки и составлять основную часть содержимого карты.
+          </p>
+          <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+        </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <h2 class = "my-5">Cdjb rfhnjxrb</h2>
+    <div class="row">
+    <div class="col-md col-sm-6">
+      <img src="./img/flower.png" alt="">
+      <p class = "lead">Wdtnjr</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi cumque sequi, temporibus corporis atque voluptate maiores eveniet esse enim quam odit molestias ipsa, cupiditate fuga ea architecto reprehenderit iste.</p>
+    </div>
+    <div class="col-md col-sm-6">
+      <img src="./img/fruit.png" alt="">
+      <p class = "lead">Wdtnjr</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi cumque sequi, temporibus corporis atque voluptate maiores eveniet esse enim quam odit molestias ipsa, cupiditate fuga ea architecto reprehenderit iste.</p>
+    </div>
+    <div class="col-md col-sm-6">
+      <img src="./img/lemon.png" alt="">
+      <p class = "lead">Wdtnjr</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi cumque sequi, temporibus corporis atque voluptate maiores eveniet esse enim quam odit molestias ipsa, cupiditate fuga ea architecto reprehenderit iste.</p>
+    </div>
+  </div>
+
+<!-- Форма -->
+<h2>Обратная связь</h2>
+  <form class="row gy-2 gx-3 align-items-center">
+    <div class="container ">
+      <div class="row">
+    <div class="col-auto">
+      <label class="visually-hidden" for="autoSizingInput">Имя</label>
+      <input type="text" class="form-control" id="autoSizingInput" placeholder="Иван Иванов">
+    </div>
+    <div class="col-auto">
+      <label class="visually-hidden" for="autoSizingInputGroup">Имя пользователя</label>
+      <div class="input-group">
+        <div class="input-group-text">@</div>
+        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Имя пользователя">
+      </div>
+    </div>
+    <div class="col-auto">
+      <label class="visually-hidden" for="autoSizingSelect">Предпочтение</label>
+      <select class="form-select" id="autoSizingSelect">
+        <option selected>Выберите...</option>
+        <option value="1">Один</option>
+        <option value="2">Два</option>
+        <option value="3">Три</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+        <label class="form-check-label" for="autoSizingCheck">
+          Запомнить меня
+        </label>
+      </div>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Отправить</button>
+    </div>
+  </div>
+  </div>
+  </form>
+
+
+  
+
+    <!--     Скрипты всегда вставлять в конце, потомучто могут долго загружаться-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
