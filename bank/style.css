@@ -1,6 +1,7 @@
 /* ----------------Общие стили --------------------*/
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -28,12 +29,14 @@ ul {
   background: #3a95ff;
   border-radius: 3px;
   color: #ffffff;
+  margin-right: 37px;
 }
 
 .btn-white {
   border: 1px solid #3a95ff;
   border-radius: 3px;
   box-sizing: border-box; /* раницы входит в ширину блока */
+  margin-right: 37px;
 }
 
 h2 {
@@ -76,7 +79,7 @@ h4 {
 .top-menu-list a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 110%;
   color: #424242;
 }
@@ -112,6 +115,8 @@ h4 {
 }
 
 /* Стили контента */
+
+
 
 .bunner {
   background: #ffffff;
@@ -156,6 +161,15 @@ h4 {
     margin: 70px 0 70px 0;
 } */
 
+.suggestions h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.suggestions p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .suggestions-block {
   display: flex;
   flex-wrap: wrap;
@@ -185,7 +199,14 @@ h4 {
 
 .suggestions-block-item-text h3 {
   margin: 0;
+  font-weight: 600;
+  font-size: 26px;
 }
+.suggestions-block-item-text p {
+  font-weight: 400;
+ font-size: 18px;
+}
+
 
 .cards {
   height: 775px;
@@ -220,8 +241,11 @@ h4 {
   align-content: flex-start;
 }
 
-.cards-proc-header-text {
+.cards-proc-header h3 {
   margin: 34px 0 0 0;
+  font-weight: 600;
+font-size: 38px;
+line-height: 130%;
 }
 
 .cards-proc-section {
@@ -236,12 +260,29 @@ h4 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  width: 157px;
 }
+
+.cards-proc-section-item h3 {
+  font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+border-bottom: 1px solid #3A95FF;
+width: 157px;
+text-align: center;
+}
+.cards-proc-section-item p {
+  font-weight: 500;
+font-size: 18px;
+line-height: 130%;
+text-align: center;
+}
+
 
 .cards-proc-button {
   margin: 0px 0px 42px 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-content: center;
 }
 
@@ -261,14 +302,20 @@ h4 {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  
 }
 
-.cards-credit-item-text {
+.cards-credit-item h4 {
   margin: 34px;
+  font-weight: 600;
+font-size: 26px;
+line-height: 130%;
 }
-.cards-credit-item-pic {
+.cards-credit-item-img {
   margin: 34px;
+  
 }
+
 
 .getting-wrap {
   margin: 70px 0 70px 0;
